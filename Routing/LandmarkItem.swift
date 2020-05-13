@@ -187,9 +187,9 @@ extension LandmarkItem{
          // give each item a ranking
          // sortdescriptor by the ranking
         
-        let distanceGraph = getLandmarkGraph()
-        print(distanceGraph)
-        getPath(graph: distanceGraph)
+        //let distanceGraph = getLandmarkGraph()
+        //print(distanceGraph)
+        //getPath(graph: distanceGraph)
         
         // ORIGINAL STUFF
         let request: NSFetchRequest<LandmarkItem> = LandmarkItem.fetchRequest() as! NSFetchRequest<LandmarkItem>
