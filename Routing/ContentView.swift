@@ -43,17 +43,7 @@ struct ContentView: View {
                 //                        }
                 //                    }
                 //                }.font(.headline)
-                Section(header:
-                    HStack{
-                        Text("Landmarks")
-                        Button(action: {}){
-                            Image(systemName: "arrow.up.arrow.down.circle")
-                                .imageScale(.medium)
-                        }
-                        
-                    }
-                ){
-
+                Section(header:Text("Landmarks")){
                     
                     ForEach(self.landmarkItems){ landmarkItem in
                         
